@@ -9,6 +9,6 @@ buttonAdd.addEventListener("click", function() {
     // console.log(inputText.value);
 
 const listElement = document.createElement ("li");
-listElement.innerText = inputText.value;
-list.appendChild(listElement);
+    listElement.innerText = inputText.value;
+    list.appendChild(listElement);
 });
